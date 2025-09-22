@@ -1,0 +1,21 @@
+# Backend Météo Tchad
+
+API REST pour l'application de prévisions météo des villes tchadiennes.
+
+## Installation
+
+1. Cloner le projet
+2. `npm install`
+3. Créer un fichier `.env` avec votre clé OpenWeatherMap
+4. `npm start`
+
+## API Endpoints
+
+- `GET /api/health` - Statut du serveur
+- `GET /api/villes` - Liste des villes tchadiennes
+- `GET /api/meteo/:villeId` - Prévisions 7 jours pour une ville
+
+## Variables d'environnement
+
+- `OPENWEATHER_API_KEY` aba3a22c5f7330041c73092a9f754b26e94d6897b3cc0522016a0b116b74b40d
+- `PORT` - Port du serveur (défaut: (5a00))
